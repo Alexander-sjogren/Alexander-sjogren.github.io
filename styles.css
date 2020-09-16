@@ -1,23 +1,11 @@
-#header {
-    /*background-color: black; */
-   
-}
 h1 {
     font-family: Roboto,sans-serif !important;
-}
-#left-col {
-    background-color: blue !important;
-    /*text-align: center; */
-}
-#col-2 {
-    background-color: yellow;
 }
 #contact {
     text-align: left;
 }
 #row2 {
     margin-top: 10px;
-    background-color: antiquewhite;
 }
 h6 {
     font-style: italic;
@@ -25,14 +13,20 @@ h6 {
 }
 #row3 {
     margin-top: 10px;
-    background-color: rgb(135, 99, 53);
-}
-#row2-col2 {
-    background-color: aqua;
 }
 h2 {
     padding: 20px 0 20px 0;
 }
 .headers4 {
     margin-top: 30px !important;
+}
+#banner {
+    background-color: rgb(82, 77, 181);
+}
+.my-row {
+    height: 40px !important;
+}
+a {
+    color: black !important;
+    font-size: 1.5em;
 }
