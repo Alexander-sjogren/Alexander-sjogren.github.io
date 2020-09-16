@@ -1,0 +1,17 @@
+#header {
+    /*background-color: black; */
+   
+}
+h1 {
+    font-family: Roboto,sans-serif !important;
+}
+#left-col {
+    background-color: blue !important;
+    text-align: center;
+}
+.row {
+    background-color: yellow;
+}
+#contact {
+    text-align: left;
+}
