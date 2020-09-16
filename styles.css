@@ -26,4 +26,13 @@ h6 {
 #row3 {
     margin-top: 10px;
     background-color: rgb(135, 99, 53);
-
+}
+#row2-col2 {
+    background-color: aqua;
+}
+h2 {
+    padding: 20px 0 20px 0;
+}
+.headers4 {
+    margin-top: 30px !important;
+}
