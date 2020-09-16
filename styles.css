@@ -7,11 +7,23 @@ h1 {
 }
 #left-col {
     background-color: blue !important;
-    text-align: center;
+    /*text-align: center; */
 }
-.row {
+#col-2 {
     background-color: yellow;
 }
 #contact {
     text-align: left;
 }
+#row2 {
+    margin-top: 10px;
+    background-color: antiquewhite;
+}
+h6 {
+    font-style: italic;
+    font-size: 1.2em !important;
+}
+#row3 {
+    margin-top: 10px;
+    background-color: rgb(135, 99, 53);
+
