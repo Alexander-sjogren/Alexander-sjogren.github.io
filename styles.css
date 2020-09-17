@@ -1,18 +1,26 @@
+body {
+     background-color:white !important;
+}
+#left-col {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black; /* ser ok ut satte border på höger längst ner också */
+}
+#list1 li a {
+    background-color: aqua !important;
+}
+#row1-col2 {
+    border-bottom: 1px solid black; 
+    border-top: 1px solid black; 
+}
+#row3-col2 {
+    border-bottom: 1px solid black;
+}
 h1 {
     font-family: Roboto,sans-serif !important;
-}
-#contact {
-    text-align: left;
-}
-#row2 {
-    margin-top: 10px;
 }
 h6 {
     font-style: italic;
     font-size: 1.2em !important;
-}
-#row3 {
-    margin-top: 10px;
 }
 h2 {
     padding: 20px 0 20px 0;
@@ -29,4 +37,7 @@ h2 {
 a {
     color: black !important;
     font-size: 1.5em;
+}
+#contact {
+    background-color: aqua !important;
 }
