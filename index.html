@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Refererar till mitt stylesheet, samt en google font och boostrap biblioteket.
+     Har även en script fil för ikonerna -->
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&effect=outline">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&effect=3d">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Alexander CV</title>
     <script src="https://kit.fontawesome.com/c0d09d0e41.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Skapar en fluid container som innehåller mina rows, columns -->
     <div class="container-fluid" id="header">
         <div class="row">
-                <div id="left-col" class="col-md-6 col-sm-12 text-center">
-                    <img id="bild" src="alexander1.jpg" class="rounded" alt="...">  
-                    <h4 class="font-effect-outline">Alexander Sjögren</h4> 
+            <!-- Ny rad och column, detta är hela mina vänstersida på sidan -->
+                <div id="left-col" class="col-md-6 col-sm-12 col-lg-4 text-center">
+                    <!-- har satt col-md-6 detta innebär att displayer som är medium 
+                    och uppåt i vw har en uppdelning 50/50 mellan columns 
+                col-sm-12 styr så att vi får en breakpoint för mindre devices så att vänster
+                 column tar upp hela bredden detta gör att andra columnen hamnar under
+                    i mobiler osv satte col-lg-4 för större skärmar så dem får en 4/8 fördelning 
+                    istället --> 
+                    <img id="bild" src="alexander1.jpg" width="280px" class="rounded" alt="...">  
+                    <h4 class="font-effect-3d">Alexander Sjögren</h4> 
                     <ul class="text-left list-group list-group-flush" id="contact">
-                        <li class="list-group-item"><i class="fas fa-home"></i> Ljungby</li>
+                        <li class="list-group-item"><i class="fas fa-home"></i> Lagan</li>
                         <li class="list-group-item"><i class="fas fa-at"></i> alle656@hotmail.com</li>
                         <li class="list-group-item"><i class="fas fa-phone"></i> 073-822 08 07</li>
                         <li class="list-group-item"><i class="fas fa-briefcase"></i>  Webbutvecklare .Net</li>
@@ -29,12 +39,14 @@
                         <li class="list-group-item"><b>Svenska: </b> Flytande i tal och skrift</li>
                         <li class="list-group-item"><b>Engelska:</b> Flytande i tal och skrift</li>
                         <li class="list-group-item"><b>Franska:</b> Grundläggande kunskaper</li>
+                        <li class="list-group-item"></li> <!--Tom så att vi får till ett snyggt avslut-->
                     </ul>
-                </div> 
-             <div id="col-2" class="col-md-6">
+                </div>
+                <!-- Ny column innehåller hela högersidan--> 
+             <div id="col-2" class="col-md-6 col-lg-8">
                 <h2><i class="fas fa-user"></i>  Om mig</h2>
                 <ul class="list-group list-group-flush" id="list1">
-                    <li class="list-group-item">Jag heter Alexander Sjögren, 29 år gammal och bor i Ljungby, med min sambo och hund.</li>
+                    <li class="list-group-item">Jag heter Alexander Sjögren, 29 år gammal och bor i Lagan, med min sambo och hund.</li>
                     <li class="list-group-item">Jag har ett stort intresse för allt som har med teknik att göra.</li>
                     <li class="list-group-item">Jag är väldigt fotbollsintresserad, nuförtiden spelar jag inte längre men följer mycket fotboll på tv.</li>
                     <li class="list-group-item">Som person är jag väldigt målmedveten, och ger inte upp.</li>
@@ -42,6 +54,7 @@
                     <li class="list-group-item">Tre bra saker med mig är nogrann, lättlärd och att jag är duktig på att lösa problem.</li>
                     <li class="list-group-item">Jag är alltid på jakt efter att lära mig något nytt!</li>
                 </ul>
+                <!-- Ny row för att kunna få en liten brytning med borders --> 
                 <div class="row" id="row2-col2">
                     <div class="col text-left" id="row1-col2">
                         <h2><i class="fas fa-briefcase"></i> Arbetslivserfarenhet</h2>
@@ -68,9 +81,9 @@
                                     praktik på Mk bygg. Fick vara med och byta några tak. Vi byggde några altaner.
                                     Renoverade badrum, samt bytte något kök. 
                                 </p>
-                                <hr>
                     </div>
                 </div> 
+                <!-- Ny row för att kunna få en liten brytning med borders --> 
                 <div class="row" id="row3-col2">
                     <div class="col text-left">
                         <h2><i class="fas fa-book"></i> Utbildning</h2>
@@ -81,7 +94,6 @@
                         <h4>Sunnerbogymnasiet</h5>
                         <h6><i class="far fa-calendar-alt"></i> 2008-2010</h6>
                         <p>Bygg och anläggningsprogrammet</p>
-                        <hr>
                     </div>
                 </div>
              </div>       
@@ -89,8 +101,8 @@
     </div>
    <!-- Banner för tex facebook länk osv align-items-center -->
     <div id="banner" class="container-fluid">
-        <div class="row text-center justify-content-center align-items-center my-row">
-            <div class="col-4">
+        <div class="row text-center align-items-center my-row">
+            <div class="col-12">
                 <a href="https://github.com/Alexander-sjogren"><i class="fab fa-github"></i></a>
                 <a href="https://www.facebook.com/alexander.sjogren.5/"><i class="fab fa-facebook"></i></a>
                 <a href="mailto:alle656@hotmail.com"><i class="fas fa-envelope"></i></a>
