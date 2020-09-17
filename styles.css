@@ -4,7 +4,10 @@ body, .list-group-item {
 /* snyggar till layouten med lite borders */
 #left-col {
     border-right: 1px solid black;
-    border-bottom: 1px solid black; 
+    border-bottom: 1px solid black;
+}
+.rounded {
+    margin-top: 20px;
 }
 #row1-col2 {
     border-bottom: 1px solid black; 
@@ -39,5 +42,12 @@ a {
     #left-col
     {
         border-right:none;
+    }
+}
+/* fixade problem med att ikonen vid arbetslivserfarenhet bytte rad på små enheter */
+@media (max-width:320px) {
+    h2
+    {
+        font-size: 1.7em !important;
     }
 }
