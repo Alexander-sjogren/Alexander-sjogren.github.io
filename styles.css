@@ -32,9 +32,12 @@ h2 {
     background-color: rgb(82, 77, 181);
     height: 40px !important;
 }
-a {
+.col-12 a {
     color: black !important;
     font-size: 1.5em;
+}
+.text-left a {
+    color: black;
 }
 
 /* Tar bort bordern för enheter under 767px dvs när vi går ner på 1 column tar vi bort bordern */
@@ -49,5 +52,16 @@ a {
     h2
     {
         font-size: 1.7em !important;
+    }
+}
+@media (min-width:1800px) {
+    img.rounded {
+        width: 450px;
+    }
+    #banner {
+        border-top: 1px solid black;
+    }
+    #left-col{
+        border-bottom: none;
     }
 }
