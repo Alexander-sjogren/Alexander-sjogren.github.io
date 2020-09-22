@@ -39,6 +39,9 @@ h2 {
 .text-left a {
     color: black;
 }
+#row4-col2 {
+    border-bottom: 1px solid black; 
+}
 
 /* Tar bort bordern för enheter under 767px dvs när vi går ner på 1 column tar vi bort bordern */
 @media (max-width:767px) {
@@ -63,5 +66,8 @@ h2 {
     }
     #left-col{
         border-bottom: none;
+    }
+    #row4-col2 {
+        border-bottom: none; 
     }
 }
