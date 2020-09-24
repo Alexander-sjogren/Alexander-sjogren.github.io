@@ -14,9 +14,7 @@ fetch('https://api.github.com/users/Alexander-sjogren/repos')
 fetch('https://alexander-sjogren.github.io/aboutme.JSON')
 .then(response => response.json())
 .then (json => {
-   // console.log(json)
     for (let i = 0; i < json.length; i++) {
-        console.log(json[i].myString);
         document.getElementById("list1").insertAdjacentHTML("afterbegin", "<li class='list-group-item'>"+json[i].myString+"</li>")
     }
 })
