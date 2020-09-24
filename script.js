@@ -11,7 +11,7 @@ fetch('https://api.github.com/users/Alexander-sjogren/repos')
     }  
 })
 
-fetch('aboutme.JSON')
+fetch('https://alexander-sjogren.github.io/aboutme.JSON')
 .then(response => response.json())
 .then (json => {
    // console.log(json)
